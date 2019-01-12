@@ -28,10 +28,8 @@ app.all('*' , (req, res)=>{
 
 
 app.get('/users' , (req , res)=>{
-
-  res.render('index');
-
-})
+  res.render('temlpates/welcome');
+});
 
 export const start = () =>{
   app.listen(3000, ()=>{
