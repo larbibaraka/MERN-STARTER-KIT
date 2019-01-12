@@ -4,15 +4,19 @@
  * to add your public routes 
  *
 *******************************************/
-'use strict';
+
 import express from 'express';
 
-const Web = express.Router();
+const Route = express.Router();
 
 
-Web.get('/', (res, response)=>{
-    response.send('barak baraka');
+Route.get('/', (req, res)=>{
+    res.send('baraka baraka');
+})
+
+Route.get('/users' , (req , res)=>{
+    res.render('welcome')
 })
 
 
-export default Web;
+export default Route;

@@ -4,7 +4,10 @@
   "description": "mern stack starter",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js",
+    "dev": "webpack -wd",
+    "build": "webpack --mode production",
+    "watch": "webpack-dev-server --inline --hot"
   },
   "keywords": [],
   "author": "",
@@ -19,14 +22,27 @@
     "helmet": "^3.15.0",
     "json-loader": "^0.5.7",
     "mongoose": "^5.4.3",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
     "eslint": "^5.12.0",
+    "eslint-plugin-react": "^7.12.3",
     "jest": "^23.6.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "prettier": "^1.15.3",
+    "react-hot-loader": "^4.6.3",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   }
 }
