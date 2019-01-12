@@ -10,11 +10,7 @@ import express from 'express';
 const Route = express.Router();
 
 
-Route.get('/', (req, res)=>{
-    res.send('baraka baraka');
-})
-
-Route.get('/users' , (req , res)=>{
+Route.get('/' , (req , res)=>{
     res.render('welcome')
 })
 
