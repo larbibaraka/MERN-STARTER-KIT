@@ -1,7 +1,7 @@
 {
   "name": "mern-stack",
   "version": "1.0.0",
-  "description": "",
+  "description": "mern stack starter",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
