@@ -4,7 +4,7 @@
   "description": "mern stack starter",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
+    "start": "concurrently \"webpack -wd\" \"nodemon --exec babel-node index.js\"",
     "dev": "webpack -wd",
     "build": "webpack --mode production",
     "watch": "webpack-dev-server --inline --hot"
@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
