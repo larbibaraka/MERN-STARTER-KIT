@@ -4,7 +4,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>{this.props.textValue}</h1>  
+        <div className="jumbotron jumbotron-fluid">
+          <div className="container">
+            <h1 className="display-4">{this.props.textValue}</h1>
+          </div>
+        </div>
       </div>
     )
   }

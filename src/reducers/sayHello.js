@@ -3,7 +3,7 @@ import { SAY_HELLO } from '../constants/index';
 
 
 const initialState = {
-  textValue : 'baraka'
+  textValue : 'welecome to my website this just some dummy content enjoy'
 }
 
 export default (state = initialState , action={}) => {
