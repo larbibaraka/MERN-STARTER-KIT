@@ -30,6 +30,8 @@ so in this framework you find a full set-up for every thing a fullstack develope
   
   ☐ add npm installation like `create-react-app`
 
+  ☐ add docker file
+
 ## License & copyright
 © Baraka Larbi -laridev-
   * email    : <laridev@gmail.com>
