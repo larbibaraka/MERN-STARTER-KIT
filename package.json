@@ -4,7 +4,7 @@
   "description": "mern stack starter",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"webpack -wd\" \"nodemon --exec babel-node index.js\"",
+    "start": "concurrently \"webpack -wd\" \"nodemon --exec babel-node index.js\" ",
     "dev": "webpack -wd",
     "build": "webpack --mode production",
     "watch": "webpack-dev-server --inline --hot"
