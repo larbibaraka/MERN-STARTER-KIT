@@ -18,21 +18,21 @@ so in this framework you find a full set-up for every thing a fullstack develope
   * OAuth with passport
 ---
 ## how to get started :
- * `git clone https://github.com/larbibaraka/laridev-mern-boilerplate.git` 
+ * `git clone <https://github.com/larbibaraka/laridev-mern-boilerplate.git>` 
  * cd `laridev-mern-boilerplate`
  * run `npm install` or `yarn`
  * open it with your favorite code editor or IDE
  * run `npm start` 
- * enjoy and leave a star 
+ * enjoy and leave a star ★ and thank you
 
 ## todo  :
-  - add typeScript
-  - add npm installation like `create-react-app`
+  ☐ add typeScript
+  ☐ add npm installation like `create-react-app`
 
 ## License & copyright
 © Baraka Larbi -laridev-
-  *email    : <laridev@gmail.com>
-  *linkedin : <https://www.linkedin.com/in/larbi-baraka-b36651a7/>
-  *twitter  : <https://twitter.com/laridev2016>
+  * email    : <laridev@gmail.com>
+  * linkedin : <https://www.linkedin.com/in/larbi-baraka-b36651a7/>
+  * twitter  : <https://twitter.com/laridev2016>
 
 
