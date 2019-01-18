@@ -16,7 +16,7 @@ so in this framework you find a full set-up for every thing a fullstack develope
   * docker file
   * tests with jest
   * OAuth with passport
----
+
 ## how to get started :
  * `git clone <https://github.com/larbibaraka/laridev-mern-boilerplate.git>` 
  * cd `laridev-mern-boilerplate`
@@ -27,6 +27,7 @@ so in this framework you find a full set-up for every thing a fullstack develope
 
 ## todo  :
   ☐ add typeScript
+  
   ☐ add npm installation like `create-react-app`
 
 ## License & copyright
